@@ -15,7 +15,7 @@ A powerful skill for interacting with Google NotebookLM programmatically. It goe
 **Prerequisite**: You must be logged in. Run this once:
 
 ```bash
-source ~/.gemini/antigravity/skills/notebooklm-py/repo/.venv/bin/activate
+source internal-docs
 notebooklm login
 ```
 
@@ -51,7 +51,7 @@ Use the built-in script to run parallel, automated interviews against a Notebook
 
 ```bash
 # 1. Initialize a new QA workspace (creates questions.json & runner script)
-python3 ~/.gemini/antigravity/skills/notebooklm-py/scripts/init_project.py --dir /path/to/workspace
+python3 internal-docs --dir /path/to/workspace
 
 # 2. Add questions to questions.json, then run the interview script inside the workspace:
 # Recommended 8 workers for stability and speed on high-end Macs.
@@ -135,7 +135,7 @@ notebooklm download data-table ./data.csv
 To update the skill to the latest version of `notebooklm-py`:
 
 ```bash
-bash ~/.gemini/antigravity/skills/notebooklm-py/scripts/update.sh
+bash internal-docs
 ```
 
 ## 🔧 Troubleshooting
