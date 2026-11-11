@@ -58,7 +58,7 @@ def skill():
 def install():
     """Install or update the NotebookLM skill for Claude Code.
 
-    Copies the skill file to ~/.claude/skills/notebooklm/SKILL.md
+    Copies the skill file to internal-docs/
     and embeds the current package version for tracking.
     """
     # Read skill content from package data

@@ -6,7 +6,7 @@ import json
 def main():
     parser = argparse.ArgumentParser(description="Initialize a NotebookLM Batch QA Project")
     parser.add_argument("name", help="Name of the notebook project (creates a subfolder)")
-    parser.add_argument("--base-dir", default="/Users/vecsatfoxmailcom/Documents/Cowork/Antigravity Cowork/B-NotebookLM-QA", help="Base directory for all NotebookLM QA projects")
+    parser.add_argument("--base-dir", default="./projects", help="Base directory for all NotebookLM QA projects")
     args = parser.parse_args()
 
     # Create a subfolder under the base directory

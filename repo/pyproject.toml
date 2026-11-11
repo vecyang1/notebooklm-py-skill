@@ -6,7 +6,7 @@ dynamic = ["readme"]
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "Teng Lin", email = "teng.lin@gmail.com"}
+    {name = "Teng Lin", email = "teng.lin@example.com"}
 ]
 keywords = ["notebooklm", "google", "ai", "automation", "rpc", "client", "api"]
 classifiers = [
